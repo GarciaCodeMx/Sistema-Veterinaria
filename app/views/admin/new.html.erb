@@ -1,0 +1,8 @@
+<h2 id="title-register-account" class="text-center">Registrar Nuevo Usuario</h2>
+<div id="form-register-account">
+    <%= form_tag("/create", method: "post") do %>
+        <%= text_field_tag(:user) %>
+        <%= password_field_tag(:password) %>
+        <%= submit_tag("Registrar") %>
+    <% end %>
+</div>

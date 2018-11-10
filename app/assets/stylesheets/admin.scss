@@ -1,0 +1,26 @@
+#login-container{
+	margin: 0px auto;
+	padding: 5px;
+	width: 350px;
+	height: 350px;
+	background-color: #EEEEEE;
+	border-radius: 5px;
+  
+ 	#titulo-login{
+		text-align: center;
+		margin: 15px 0px;
+	}
+
+	input{
+		display: block;
+		width: 95%;
+		margin: 0px auto;
+		margin-bottom: 30px;
+	}
+
+	#btn-login{
+		display: block;
+		margin: 25px auto !important;
+		width: 80%;
+	}
+}
